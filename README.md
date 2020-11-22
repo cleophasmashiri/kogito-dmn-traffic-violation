@@ -66,7 +66,7 @@ In addition client application can be easily generated from the swagger definiti
 # Creating DMN Model: traffic-violation.
 
 1. Add file: Traffic-Violation.dmn.
-2. [!Model Decision-Requirement Diagram-DRD](/traffic-violation.png).
+2. ![Model Decision-Requirement Diagram-DRD](/traffic-violation.png).
 3. Define data model: tDriver(Age, Name, State, City, Points), tViolation(Code,Date, Type(speed,parking,driving under the influence), Speed Limit, Actual Speed) and tFine(Amount, Points).
 4. Add decision tables/model.
 5. Write test scenario: traffic-violation-test.scesim and run 'sh mvn clean test'
