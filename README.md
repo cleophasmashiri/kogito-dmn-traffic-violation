@@ -4,7 +4,7 @@ On Quarkus
 $ mvn archetype:generate \
     -DarchetypeGroupId=org.kie.kogito \
     -DarchetypeArtifactId=kogito-quarkus-archetype \
-    -DgroupId=com.zamaflow.bpm -DartifactId=coffee-shop-app \
+    -DgroupId=com.zamaflow.bpm -DartifactId=kogito-dmn-traffic-violation \
     -DarchetypeVersion=0.17.0 \
     -Dversion=1.0-SNAPSHOT
 
@@ -12,7 +12,7 @@ On Spring Boot
 $ mvn archetype:generate \
     -DarchetypeGroupId=org.kie.kogito \
     -DarchetypeArtifactId=kogito-springboot-archetype \
-    -DgroupId=com.zamaflow.bpm -DartifactId=coffee-shop-app \
+    -DgroupId=com.zamaflow.bpm -DartifactId=kogito-dmn-traffic-violation \
     -DarchetypeVersion=0.17.0 \
     -Dversion=1.0-SNAPSHOT
 
